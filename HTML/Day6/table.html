@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table,th,td{
+            /* Syntax: <line-width> || <line-style> || <color> */
+            border: 1px solid rgb(0, 85, 255); 
+        }
+        th{
+            background-color:cornsilk;
+        }
+      
+        td{
+            
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <table
+    style="background-color: aliceblue;" 
+    width="70%"
+    cellpadding="15"
+    cellspacing="0"
+    
+    >
+
+    <caption>Timetable</caption>
+
+    <tr>
+    <th>Classification</th>
+    <th>Topic</th>
+    <th>Details</th>
+    <th>Date</th>
+    <th>Host</th>
+    <th>Assignment</th>
+    </tr>
+
+    <!-- rowspan -making a cell span more than one own  -->
+
+  
+    <tr> 
+      
+        <td  rowspan="3">FrontEnd stuff</td>
+        <td >HTML</td>
+        
+        <td>Bla bla</td>
+        <td>25/05/23</td>
+        <td>Gargi</td>
+        <td>go away</td>
+    </tr>
+    <tr>
+        <td>Css</td>
+        <td>Bla bla bla</td>
+        <td>12/06/23</td>
+        <td>Gargi</td>
+        <td>go away</td>
+
+
+    </tr>
+    <tr>
+       
+        <td>JS</td>
+        <td>Blaaa blaaa</td>
+        <td>25/06/23</td>
+        <td >Gargiii</td>
+        <td>go away now</td>
+
+
+    </tr>
+
+    <tr>
+        <td colspan="6">All done !!!</td>
+        
+    </tr>
+    
+
+
+
+    </table>
+    
+</body>
+</html>
