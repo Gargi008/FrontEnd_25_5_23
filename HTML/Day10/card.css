@@ -1,0 +1,77 @@
+/* universal selector */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    background-color: rgb(228, 226, 223);
+    padding: 12px;
+    text-align: center;
+
+}
+
+.card{
+    width: 20%;
+    display: inline-block;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+.cardImage img{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cardTitle{
+    padding: 10px;
+    text-align: center;
+
+}
+.cardPara{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #first{
+    color: red;
+}
+
+#second{
+    color:blue
+}
+
+.nicebackground{
+    background-color: rgb(60, 255, 0);
+
+}
+ */
