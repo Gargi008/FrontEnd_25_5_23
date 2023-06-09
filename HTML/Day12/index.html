@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .fieldBox{
+            margin: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="formData.html" method="get">
+
+
+        <!-- 
+
+            Get - when we are submitting the formdata , the data gets appended to the url
+                 max url limit / length - 2048 characters
+
+
+            post - 
+         -->
+
+        <fieldset>
+            <legend>Sports Registration Form</legend>
+            <h1>Pls Signup here </h1>
+            <div class="fieldBox">
+                <label for="firstname" >FirstName</label>
+                <input type="text" placeholder="pls enter your firstname" id="firstname" name="firstname" required>
+            </div>
+       
+             <div class="fieldBox">
+                <label for="lastname" >LastName</label>
+                <input type="text" placeholder="pls enter your lastname" id="lastname" name="lastname" required>
+            </div>
+            <div class="fieldBox">
+                <label for="emailid" >Email Id</label>
+                <input type="email" placeholder="pls enter your Email" id="emailid" name="emailid" required>
+            </div>
+            <div class="fieldBox">
+                <label for="password" >Password</label>
+                <input type="password" placeholder="pls enter your password" id="password" name="password" required>
+            </div>
+
+            <div class="fieldBox">
+                <label>Gender:</label>
+            
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label>Female</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label>male</label>
+                    <input type="radio" id="others" name="gender" value="others">
+                    <label>others</label>
+
+            </div>
+
+            <div class="fieldBox">
+
+                <label for="phoneno">Phone No.</label>
+                <select id="phoneno">
+                    <option value="91">+91</option>
+                    <option value="90">+90</option>
+                    <option value="1">+1</option>
+                </select>
+                <input type="tel" name="phoneno" placeholder="enter your phone no"> 
+            </div>
+
+
+            <div class="fieldBox">
+                <label for="dob">DOB: </label>
+                <input name="dob" type="date" id="dob" placeholder="enter your dob">
+
+
+            </div>
+
+            <div class="fieldBox">
+                <input type="checkbox" id="tnc" name="tnc">
+                <label for="tnc">Do you agree to all our terms and conditions</label>
+                
+            </div>
+
+            <div class="fieldBox">
+                <label for="details"> Pls enter more details if any</label>
+                <textarea name="details" id="details"></textarea>
+
+            </div>
+            <div class="fieldBox">
+                <label for="feedback"> rating/feedback : </label>
+                <input name="feedback" type="number" id="feedback" min="1" max="10">
+
+            </div>
+
+
+            <div class="fieldBox">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            
+
+
+
+
+        </fieldset>
+      
+
+
+      
+    </form>
+</body>
+</html>
