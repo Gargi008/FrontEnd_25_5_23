@@ -1,0 +1,94 @@
+
+/* universal selector */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+    
+}
+html{
+    background-color: antiquewhite;
+    height: 2500px;
+    border: 10px solid red;
+    margin : 0px;
+}
+body{
+    background-color: rgb(229, 139, 23);
+    height: 500px;
+    border: 10px solid rgb(0, 55, 255);
+    margin: 30px;
+    padding: 30px;
+    /* margin : 50px; */
+   /* padding-right: 150px; */
+
+
+   /*  padding: 10px 20px 20px 10px;   */
+   /*  padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px; */
+    /* clock wise  */
+
+    /* margin: 120px 80px 130px 70px; */
+  
+
+    
+}
+
+.parent{
+    background-color: chartreuse;
+    border: 5px solid red;
+    height: 350px;
+    margin: 20px;
+
+}
+
+.child{
+    background-color: blue;
+    border: 10px solid rgb(255, 0, 157);
+    margin: 30px;
+    padding: 10px;
+    height: 40px;
+    color:white;
+    display: inline;
+    
+}
+
+#child1{
+    background-color: rgb(0, 247, 255);
+    border: 10px solid rgb(255, 0, 157);
+    margin: 10px;
+    padding: 10px;
+    height: 60px;
+    color:rgb(0, 0, 0);
+    width: 200px;
+    display: inline-block;  /* if display inline then u can't give width or height */
+  
+
+}
+#child2{
+    background-color: rgb(251, 255, 0);
+    border : 10px solid red;
+    margin: 30px;
+    padding: 5px;
+    height: 60px;
+    color:rgb(0, 0, 0);
+    width: 200px;
+    display: inline-block;  /* if display inline then u can't give width or height */
+  
+
+}
+#child3{
+    background-color: rgb(200, 0, 255);
+    border : 10px solid rgb(255, 0, 55);
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    color:rgb(0, 0, 0);
+    width: 200px;
+    display: inline-block;  /* if display inline then u can't give width or height */
+
+
+}
+
