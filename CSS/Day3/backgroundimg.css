@@ -1,0 +1,29 @@
+.image{
+
+    background-image: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.title{
+    position: absolute;
+    top: 140px;
+    left:550px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+

@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .grad{
+    height: 600px;
+
+    background-image: linear-gradient(to top right, violet, indigo, blue, green , yellow, orange, red);
+}
+.grad{
+  
+    height: 600px;
+
+    background-image: linear-gradient(to top left, violet , purple, violet, purple);
+} */
+/* .grad{
+    height: 600px;
+
+    background-image: linear-gradient(130deg, violet , purple);
+} */
+
+/* 
+
+   0 deg - to top
+   180 deg - to bottom
+
+*/
+
+.grad{
+    height: 600px;
+    background-image: radial-gradient( blue 10%, white 32%, aqua);
+
+}
+
+/* .grad{
+    text-align: center;
+}
+
+
+.btn{
+    background-image: linear-gradient(to top left, blue  , darkblue);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color:aliceblue
+
+} */
+
+
+
