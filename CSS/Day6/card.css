@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin: 10%;
+
+}
+
+.card{
+    background-color: blanchedalmond;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.card:hover{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+
+.card:hover .grey{
+    display:none;
+
+}
+.card:hover .blue{
+    display: inline;
+
+}
+.blue{
+    display: none;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}

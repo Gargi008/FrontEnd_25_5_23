@@ -1,0 +1,26 @@
+.outerpara{
+    width: 400px;
+ 
+    background-color: rgb(54, 4, 236);
+/*     overflow:visible; */
+    /* overflow:hidden; */
+  /*   overflow:scroll; */
+ /*    overflow:auto; */
+
+  
+       white-space: nowrap;
+       overflow: hidden;
+       color:white;
+       text-overflow: ellipsis ;
+    
+}
+
+.overflowpara{
+    white-space: nowrap;
+    overflow: hidden;
+    color:white;
+    text-overflow: ellipsis ;
+ 
+
+}
+

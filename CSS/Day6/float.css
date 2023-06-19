@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid red;
+}
+
+.firstimg{
+    float: left;
+    width: 300px;
+    height: 250px;
+
+}
+.secondimg{
+    float: right;
+    width: 300px;
+    height: 250px;
+
+}
+
+p{
+    clear: both;
+}
+
+
+
