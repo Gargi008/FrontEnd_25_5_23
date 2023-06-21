@@ -1,0 +1,33 @@
+.children{
+    width: 250px;
+    height: 250px;
+}
+#child1{
+    border: 2px solid red;
+    position: relative;
+    top: 100px;
+    background-color: aqua;
+    z-index: 3;
+ 
+}
+#child2{
+    border: 2px solid red;
+    position:relative;
+    top: 30px;
+    left: 50px;
+    background-color: bisque;
+    z-index:-1;
+ 
+   
+}
+#child3{
+    border: 2px solid red;
+    position:relative;
+    top: 0px;
+    left: 70px;
+    background-color: rgb(6, 169, 0);
+    z-index: 1;
+
+
+
+}

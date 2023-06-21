@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#mainPage{
+
+}
+.mainsection{
+
+}
+
+.banner{
+    height: 85vh;
+    display: flex;
+    position: relative;
+    padding: 0 5% 0 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1c3cc;
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+}
+
+.navigation{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: auto;
+    height: 78px;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.brand{
+    position: absolute;
+    display: flex;
+    background-color: #e47312;
+    padding-right: 35px;
+    padding-left: 35px;
+    height: 110px;
+    align-items: center;
+    top:0px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+
+
+}
+.navlink{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.navlink::before{
+    content:"";
+    background-color: #e47312;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: 1.5px;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+
+}
+.navlink::after{
+    content:"";
+    background-color: #e47312;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    width: 1.5px;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0px;
+
+}
+
+.navlink:hover::before{
+    height: 20px;
+
+}
+.navlink:hover::after{
+    height: 20px;
+
+}
+.navlink:hover{
+    color: #e47312;
+
+}
+
+.freequote{
+    padding: 30px;
+    background-color: #e47312;
+    color: white;
+    height: 100%;
+  
+}
+.contactdetails{
+    display: flex;
+    position: absolute;
+    background-color: #e47312;
+    right:0%;
+    bottom: -15%;
+    width: 1000px;
+    padding: 15px;
+    background-color: #e47312;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+
+}
+.detailswrapper{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    align-items: center;
+
+}
+.firstdiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+
+}
+.infoimage{
+    width: 25px;
+    margin-bottom: 15px;
+
+
+}
+.socialcontainer{
+    position: absolute;
+    display: flex;
+    right: 0%;
+    flex-direction: column;
+    background-color: black;
+    bottom: 120px;
+
+}
+.socialicon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic{
+
+}
+.pics-wrapper{
+    display:flex;
+
+}
+
+.image-container{
+    width: 33%;
+    padding: 15px;
+
+}
+.main-img{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    overflow:hidden;
+    position: relative;
+}
+img{
+    max-width: 100%;
+}
+
+
+.overlay-img{
+    position: absolute;
+    left:0%;
+    right:0%;
+    bottom:0%;
+    top:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.image-container:hover .overlay-img{
+    opacity:1;
+}
+.overlay-data{
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        /* html -- root element */
+        html{   
+            font-size: 7px;
+        }
+       /*  .one{
+            width: 50vw; 
+            height: 50vh;
+            background-color: blue;
+        } */
+        .two{
+            width: 10vw; 
+            height: 10vh;
+            background-color: rgb(142, 142, 160);
+        }
+        .three{
+            width: 20vw;
+            height: 45vh;
+            background-color: coral;
+        }
+        .container{
+            width: 50%;
+            font-size: 25px;
+            background-color: cadetblue;
+        }
+        .one{
+            width:inherit;
+            background-color: blueviolet;
+        }
+        #para1{
+            font-size: 7em;   /* depends on the parent   10px 5 = 50px */
+        }
+        #para2{
+            font-size: 2rem;   /* depends on the root element   20px 2 = 40px    3*20 --60px  */
+        }
+    </style>
+
+
+
+</head>
+<body>
+ <!--    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three</div> -->
+    <div class="container">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <h1>hello , bye</h1>
+        <div id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In vitae ipsa veritatis ut sunt harum quas magnam iste voluptatem beatae?</div>
+        <div id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iste!</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{  /* parent */
+            display: flex;
+            padding: 20px;
+            align-items: center;
+            flex-direction: row;
+
+        }
+        .left{
+            width: 70%;
+            padding: 15px;
+
+           
+        }
+        .left img{
+            width: 100%;
+            
+            
+        }
+        .right{
+            width: 70%;
+            padding: 20px;
+        }
+        h1{
+            font-size: 55px;
+        }
+
+        @media (min-width: 0px )and ( max-width: 600px) {
+
+            .container{
+                flex-direction: column;
+            }
+
+            .left{
+                width: 100%;
+            }
+
+            .right{
+                width: 100%;
+                text-align: center;
+
+            }
+
+
+
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2019/02/13/04/41/girl-3993644_960_720.png" alt="">
+        </div>
+        <div class="right">
+            <h1>My Doggy!!!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia esse sunt at maxime quos similique porro rerum, iusto aut voluptate? Veniam, culpa! Obcaecati porro non tempora at necessitatibus quasi perspiciatis aperiam minima aliquam amet. Velit ipsam sequi recusandae. Itaque, ut.</p>
+        </div>
+    </div>
+</body>
+</html>
